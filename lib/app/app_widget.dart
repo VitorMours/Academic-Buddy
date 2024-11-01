@@ -6,7 +6,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(useMaterial3: true),
+      debugShowCheckedModeBanner:false,
+
+      theme: ThemeData(useMaterial3: true,
+      primarySwatch: Colors.purple,
+      brightness: Brightness.dark),
       home: LoginPage(),
     );
   }

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class EmailInputWidget extends StatelessWidget {
+  const EmailInputWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return (Padding(
